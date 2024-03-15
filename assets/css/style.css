@@ -1,0 +1,130 @@
+/*LOGIN.HTML*/
+
+/*BODY*/
+body{
+    height: 1rem;
+}
+
+/*NAVBAR*/
+#NAVBAR{
+    background-color: black;
+}
+
+/*LOGINBODY*/
+#LOGINBODY{
+    background-image: url(../img/Backgoundlogin.png);
+    height: 85vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    position: relative;
+}
+
+#loginform{
+    background-color: black;
+    height: 20rem;
+    width: 20rem;
+    border-radius: 5%;
+    position: relative;
+    left:20rem;
+    top:5rem;
+}
+.formplaceholder{
+    color: white;
+   
+}
+.row{
+    margin:2rem;
+    position: relative;
+    top:2rem
+}
+.formcontent{
+    padding: 2rem;
+}
+.loginbtn{
+    position: relative;
+    left: 6rem;
+    top:2rem;
+    height: 2rem;
+    width: 5rem;
+    background-color: rgb(87, 70, 104);
+}
+.bodyimg{
+position: relative;
+left:36rem;
+top:7rem;
+z-index: 1;
+}
+
+
+/*HOME.HTML*/
+/*HOME*/
+#homebody, #COMPANYBODY{
+    height: 20rem;
+    background: rgb(0,14,36);
+    background: linear-gradient(90deg, rgba(0,14,36,1) 20%, rgba(78,9,121,1) 70%, rgba(255,0,224,1) 100%);
+}
+/* SIDEBAR*/
+#SIDEBAR{
+    width: 30rem;
+}
+
+.p-3{
+    border-radius: 1rem;
+    display: flex;
+}
+
+/*WELCOME*/
+#WELCOME{
+    position: relative;
+    bottom:35rem;
+    z-index: 2;
+    left: 20rem;
+    display: flex;
+    width: 60rem;
+}
+/*NOTIFICATION*/
+#NOTIFICATION{
+    position: relative;
+    bottom: 35rem;
+    left: 60rem;
+width: 20rem;
+display: flex;
+}
+
+#HOMEINFO{
+    position: relative;
+    bottom: 32rem;
+    left:20rem;
+    display: flex;
+    gap:2rem;
+}
+.info{
+position: relative;
+top:10rem;
+right:34rem;
+}
+
+/*COMPANY*/
+#UPCOMINGCOMPANIES{
+    position: relative;
+    bottom: 30rem;
+    left:30rem;
+    width: 30rem;
+}
+.maininfocompany{
+    position: relative;
+    right: .5rem;
+}
+.infocompany{
+    position: relative;
+    bottom: 5rem;
+    margin :1rem;
+    right: 1rem;
+}
+#COMPANIESAPPLIED{
+    position: relative;
+    bottom: 55rem;
+    left:53rem;
+    width: 30rem;
+}
